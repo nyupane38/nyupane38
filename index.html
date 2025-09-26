@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parasmani Nyupane - Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-img">
+                <div class="img-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <h1>Parasmani Nyupane</h1>
+            <p class="subtitle">Spula Student</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about animated">
+            <div class="container">
+                <h2><i class="fas fa-user"></i> About Me</h2>
+                <p>I am a dedicated student with a passion for learning programming and Japanese language. My goal is to
+                    develop my skills in these areas to build a successful career in technology while being able to
+                    communicate effectively in Japanese. I enjoy challenging myself with new technologies and expanding
+                    my knowledge in different programming languages.</p>
+            </div>
+        </section>
+
+        <section class="skills animated">
+            <div class="container">
+                <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+                <ul>
+                    <li><i class="fas fa-code"></i> Programming</li>
+                    <li><i class="fas fa-language"></i> Japanese</li>
+                    <li><i class="fas fa-paint-brush"></i> Web Design</li>
+                    <li><i class="fas fa-database"></i> Database</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="goals animated">
+            <div class="container">
+                <h2><i class="fas fa-bullseye"></i> Goals</h2>
+                <div class="goals-grid">
+                    <div class="goal-item">
+                        <h3><i class="fas fa-flag"></i> Short-term Goals</h3>
+                        <ul>
+                            <li>Study Japanese language</li>
+                            <li>Learn programming fundamentals</li>
+                            <li>Build simple websites</li>
+                            <li>Improve communication skills</li>
+                        </ul>
+                    </div>
+
+                    <div class="goal-item">
+                        <h3><i class="fas fa-mountain"></i> Long-term Goals</h3>
+                        <ul>
+                            <li>Become fluent in Japanese</li>
+                            <li>Work as a software developer</li>
+                            <li>Contribute to open source projects</li>
+                            <li>Work in a Japanese company</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Parasmani Nyupane. All rights reserved.</p>
+            <p>Contact: parasmani@example.com</p>
+        </div>
+    </footer>
+
+    <script>
+        // Add animation delay to sections
+        document.addEventListener('DOMContentLoaded', function () {
+            const sections = document.querySelectorAll('.animated');
+            sections.forEach((section, index) => {
+                section.style.animationDelay = `${index * 0.3}s`;
+            });
+        });
+    </script>
+</body>
+
+</html>
